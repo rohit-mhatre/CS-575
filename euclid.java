@@ -3,12 +3,10 @@
 //Assignment 1 : Impleement Euclid's GCD Algorithm
 
 import java.util.*;
-import java.lang.*;
-class euclid{
+class Euclid{
     public static void main(String[] args) {
-        Scanner scan = new Scanner (System.in);
-        int a = scan.nextInt();
-        int b = scan.nextInt();
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
         int gcd = euclid(a,b);
         System.out.println(gcd);
     }
